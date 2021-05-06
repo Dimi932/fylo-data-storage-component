@@ -8,7 +8,7 @@ var g = document.querySelector("#myinput").max;
 var strong = document.querySelector("strong");
 var bold = document.querySelector(".bold");
 strong.innerHTML = slider.value
-bold.innerHTML = slider.value.max - sliderslider.value.min;
+
 
 slider.oninput = function() {
 strong.innerHTML = this.value;
