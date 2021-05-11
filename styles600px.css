@@ -1,0 +1,59 @@
+@media (max-width:1000px) {
+  body {
+    background-color: unset;
+  }
+  .main {
+    background-image: url(images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bottom-main {
+    background-image: unset;
+  }
+  .menu-box {
+    min-width:40%;
+    top:15%;
+    left:30%;
+  }
+  .range-box {
+    min-width:40%;
+    top:calc(17% + 250px);
+    right:30%;
+  }
+  .float-box {
+    width:200px;
+    right:25%;
+    top:80%;
+    padding: 10px;
+  }
+  .float-box:before {
+    content:unset;
+  }
+  .bold {
+    font-size: 40px;
+  }
+}
+@media (max-width:750px) {
+  .menu-box {
+    min-width:60%;
+    left:20%;
+  }
+  .range-box {
+    min-width:60%;
+    right:20%;
+  }
+  
+}
+@media (max-width:500px) {
+  .menu-box {
+    min-width:90%;
+    left:5%;
+  }
+  .range-box {
+    min-width:90%;
+    right:5%;
+  }
+  .float-box {
+    width:50%;
+  }
+}
